@@ -1,0 +1,39 @@
+/* Survey page styles */
+
+.photo {
+    width: 60%;
+    padding: 10px;
+}
+
+form {
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+}
+
+input:focus, textarea:focus, select:focus {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 30, 30, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255, 30, 30, 1);
+    box-shadow: 0px 0px 10px 0px rgba(255, 30, 30, 1);
+}
+
+input[type=radio]:checked {
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.newsletter {
+    text-align: right;
+}
+
+
+/* Styles for larger screens */
+
+@media screen and (min-width: 840px) {
+    .photo {
+        width: 40%;
+    }
+}
